@@ -1,0 +1,20 @@
+uuid: 743bf0f1-8863-4e9a-8e8b-af1c0306ff85
+langcode: en
+status: true
+dependencies: {  }
+machineName: video
+name: Video
+type: external
+required:
+  - video
+props:
+  video:
+    type: object
+    $ref: 'json-schema-definitions://canvas.module/video'
+    title: Video
+    examples:
+      -
+        src: /ui/assets/videos/mountain_wide.mp4
+        poster: 'https://placehold.co/1920x1080.png?text=Widescreen'
+slots: {  }
+dataDependencies: {  }
