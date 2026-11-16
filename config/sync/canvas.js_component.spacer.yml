@@ -1,0 +1,27 @@
+uuid: 280a6e2c-9c12-409b-bc7a-e91fb69df265
+langcode: en
+status: true
+dependencies: {  }
+machineName: spacer
+name: Spacer
+type: external
+required:
+  - height
+props:
+  height:
+    type: string
+    enum:
+      - small
+      - medium
+      - large
+      - extra_large
+    'meta:enum':
+      small: Small
+      medium: Medium
+      large: Large
+      extra_large: 'Extra Large'
+    title: Height
+    examples:
+      - medium
+slots: {  }
+dataDependencies: {  }
