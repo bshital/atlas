@@ -1,0 +1,11 @@
+uuid: 45bafb06-12bf-4fa3-9238-6aa5cc94f575
+langcode: en
+status: true
+dependencies: {  }
+name: Speaker
+type: speaker
+description: 'A person presenting one or more sessions.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,7 @@
+actions:
+  eca_void_and_condition_1:
+    label: AND
+  eca_void_and_condition_2:
+    label: AND
+  eca_switch_account__1:
+    label: ユーザーの切替

@@ -1,0 +1,24 @@
+uuid: 56f7ca7f-1ce1-437a-ae20-5d15c86f92ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ticket_type
+    - node.type.order
+    - node.type.ticket_type
+id: node.order.field_ticket_type
+field_name: field_ticket_type
+entity_type: node
+bundle: order
+label: 'Ticket type'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      ticket_type: ticket_type
+field_type: entity_reference

@@ -1,0 +1,10 @@
+label: 基本
+type_settings:
+  states:
+    draft:
+      label: 下書き
+    published:
+      label: 掲載済み
+  transitions:
+    publish:
+      label: 掲載

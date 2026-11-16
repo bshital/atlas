@@ -1,0 +1,6 @@
+actions:
+  eca_switch_account_user:
+    label: ユーザーの切替
+  eca_config_write_changefreq:
+    configuration:
+      config_value: 日次

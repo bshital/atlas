@@ -1,0 +1,18 @@
+uuid: b255aee5-acb0-47a5-b72f-0bb83cf52da0
+langcode: en
+status: true
+dependencies:
+  module:
+    - canvas
+id: canvas_page.canvas_page.description
+field_name: description
+entity_type: canvas_page
+bundle: canvas_page
+label: 'Meta description'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

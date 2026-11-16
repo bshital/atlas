@@ -1,0 +1,16 @@
+uuid: e7851482-1f27-4aa0-89bc-86d44ee52e83
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.agenda_item
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+id: node.agenda_item
+target_entity_type_id: node
+target_bundle: agenda_item
+default_langcode: site_default
+language_alterable: true

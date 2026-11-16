@@ -1,0 +1,29 @@
+consentModal:
+  title: 個人情報およびクッキーの使用
+  description: |
+    使用したいサービスとサードパーティのアプリケーションを選択してください。
+  privacyPolicy:
+    text: |
+      詳細については、当社の{privacyPolicy}をお読みください。
+consentNotice:
+  title: 個人情報およびクッキーの使用
+  description: |
+    当社は以下の目的でクッキーを使用し、個人データを処理します: {purposes}。
+  learnMore: カスタマイズ
+ok: 受け入れる
+save: 保存
+decline: 拒否する
+close: 閉じる
+acceptSelected: 選択したものを受け入れる
+service:
+  disableAll:
+    title: すべてのサービスを切り替える
+    description: このスイッチを使用して、すべてのサービスを有効/無効にします。
+  required:
+    title: (常時必須)
+  purposes: 目的
+  purpose: 目的
+contextualConsent:
+  acceptAlways: 必須
+  acceptOnce: はい（今回は）
+  description: '{title} が提供する外部コンテンツを読み込みますか?'

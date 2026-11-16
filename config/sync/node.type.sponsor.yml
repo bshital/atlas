@@ -1,0 +1,11 @@
+uuid: b87543a7-3cdd-48d4-9812-103eba0a436d
+langcode: en
+status: true
+dependencies: {  }
+name: Sponsor
+type: sponsor
+description: 'A sponsoring company.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

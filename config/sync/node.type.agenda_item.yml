@@ -1,0 +1,11 @@
+uuid: 586f47bf-1531-4234-9aa9-1e4f70a4140b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Agenda item'
+type: agenda_item
+description: "A session saved to an attendee's personal agenda."
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

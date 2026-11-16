@@ -1,0 +1,19 @@
+uuid: b4649e36-c2b7-4e2f-a7ab-110fc8163f59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_summary
+    - node.type.session
+id: node.session.field_summary
+field_name: field_summary
+entity_type: node
+bundle: session
+label: Summary
+description: 'Up to 280 characters. Used on cards, in search and by the AI assistant.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,18 @@
+uuid: dbc3764d-ec83-495a-ab5e-ee6c7f0cd142
+langcode: en
+status: true
+dependencies:
+  module:
+    - canvas
+id: canvas_page.canvas_page.title
+field_name: title
+entity_type: canvas_page
+bundle: canvas_page
+label: Title
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

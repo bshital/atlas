@@ -1,0 +1,25 @@
+uuid: 0edc5066-f1b2-4991-99a7-08c05c88e97d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sold
+    - node.type.ticket_type
+id: node.ticket_type.field_sold
+field_name: field_sold
+entity_type: node
+bundle: ticket_type
+label: Sold
+description: 'Updated by the Stripe webhook.'
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

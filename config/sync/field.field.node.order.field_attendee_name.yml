@@ -1,0 +1,19 @@
+uuid: 24020560-0835-471a-a13a-231658c14a1f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attendee_name
+    - node.type.order
+id: node.order.field_attendee_name
+field_name: field_attendee_name
+entity_type: node
+bundle: order
+label: 'Attendee name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

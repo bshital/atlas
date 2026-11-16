@@ -1,0 +1,23 @@
+uuid: b98b4885-db40-41e7-b7a5-050c2d01fa96
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_links
+    - node.type.speaker
+  module:
+    - link
+id: node.speaker.field_links
+field_name: field_links
+entity_type: node
+bundle: speaker
+label: Links
+description: 'Website, social profiles.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 16
+field_type: link

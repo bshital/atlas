@@ -1,0 +1,23 @@
+uuid: c7779140-4863-4e28-8bb2-5bd106420acc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_quantity
+    - node.type.ticket_type
+id: node.ticket_type.field_quantity
+field_name: field_quantity
+entity_type: node
+bundle: ticket_type
+label: 'Quantity available'
+description: 'Total tickets on sale.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

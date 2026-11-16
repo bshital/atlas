@@ -1,0 +1,22 @@
+uuid: a7c26d41-575d-4bb5-9ad6-94ff42774dc3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ticket_type
+id: node.ticket_type.status
+field_name: status
+entity_type: node
+bundle: ticket_type
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: true
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

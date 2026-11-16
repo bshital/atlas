@@ -1,0 +1,33 @@
+uuid: 0d4302f6-ad01-4c05-84af-cabc57c9fa81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.agenda_item.field_session
+    - node.type.agenda_item
+  module:
+    - user
+id: node.agenda_item.default
+targetEntityType: node
+bundle: agenda_item
+mode: default
+content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  field_session:
+    type: entity_reference_label
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
