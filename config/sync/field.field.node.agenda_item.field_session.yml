@@ -1,0 +1,24 @@
+uuid: c4414598-82c0-4ed4-babf-6c3312583daf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_session
+    - node.type.agenda_item
+    - node.type.session
+id: node.agenda_item.field_session
+field_name: field_session
+entity_type: node
+bundle: agenda_item
+label: Session
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      session: session
+field_type: entity_reference

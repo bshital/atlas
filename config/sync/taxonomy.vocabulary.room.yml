@@ -1,0 +1,9 @@
+uuid: 886d405f-074f-4fbb-ac19-b07344987539
+langcode: en
+status: true
+dependencies: {  }
+name: Room
+vid: room
+description: null
+weight: 0
+new_revision: false

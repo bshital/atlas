@@ -1,0 +1,21 @@
+uuid: d6877516-0c7d-4edf-b7d6-779675d20c3a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sales_end
+    - node.type.ticket_type
+  module:
+    - datetime
+id: node.ticket_type.field_sales_end
+field_name: field_sales_end
+entity_type: node
+bundle: ticket_type
+label: 'Sales end'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

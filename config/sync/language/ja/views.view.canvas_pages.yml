@@ -1,0 +1,80 @@
+label: ページ
+display:
+  default:
+    display_title: デフォルト
+    display_options:
+      title: ページ
+      fields:
+        edit_canvas_page:
+          label: アクション
+          text: 編集
+        title:
+          label: タイトル
+          separator: ', '
+        status:
+          label: 状態
+          settings:
+            format_custom_false: 非掲載
+            format_custom_true: 掲載
+          separator: ', '
+        owner:
+          label: 投稿者
+          separator: ', '
+        changed:
+          label: 更新
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: 適用
+          reset_button_label: リセット
+          exposed_sorts_label: 並び替え基準
+          sort_asc_label: 昇順
+          sort_desc_label: 降順
+      filters:
+        title:
+          expose:
+            label: タイトル
+        status:
+          expose:
+            label: 掲載
+          group_info:
+            label: 掲載
+            group_items:
+              1:
+                title: 掲載
+              2:
+                title: 非掲載
+  page_1:
+    display_title: ページ
+    display_options:
+      fields:
+        title:
+          label: タイトル
+          separator: ', '
+        status:
+          label: 状態
+          settings:
+            format_custom_false: 非掲載
+            format_custom_true: 掲載
+          separator: ', '
+        owner:
+          label: 投稿者
+          separator: ', '
+        changed:
+          label: 更新
+          separator: ', '
+        operations:
+          label: 操作
+      pager:
+        options:
+          tags:
+            next: '次 ›'
+            previous: '‹ 前'
+            first: '« 最初'
+            last: '最後 »'
+          expose:
+            items_per_page_label: ページ毎の件数
+            items_per_page_options_all_label: '- 全て -'
+            offset_label: オフセット
+      menu:
+        title: ページ

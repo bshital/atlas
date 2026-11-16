@@ -1,0 +1,5 @@
+actions:
+  form_field_set_default_value_wxj50fmf:
+    label: スケジュールされた公開を有効にする
+  form_field_set_default_value_mfo0f4yo:
+    label: スケジュールされた公開を無効にする

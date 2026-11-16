@@ -1,0 +1,125 @@
+uuid: b8b64ce1-4932-42df-b689-de3c3eafd176
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.ticket_type.field_perks
+    - field.field.node.ticket_type.field_price
+    - field.field.node.ticket_type.field_quantity
+    - field.field.node.ticket_type.field_sales_end
+    - field.field.node.ticket_type.field_sold
+    - node.type.ticket_type
+    - workflows.workflow.basic_editorial
+  module:
+    - content_moderation
+    - datetime
+    - path
+    - tagify_user_list
+id: node.ticket_type.default
+targetEntityType: node
+bundle: ticket_type
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_perks:
+    type: string_textarea
+    weight: 14
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_price:
+    type: number
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_quantity:
+    type: number
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_sales_end:
+    type: datetime_default
+    weight: 13
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_sold:
+    type: number
+    weight: 12
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  simple_sitemap:
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 120
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: tagify_user_list_entity_reference_autocomplete_widget
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      suggestions_dropdown: 1
+      placeholder: ''
+      image: user_picture
+      image_style: thumbnail
+      show_info_label: 0
+      info_label: ''
+      show_entity_id: 0
+      parent_selection: 1
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  promote: true
+  publish_on: true
+  publish_state: true
+  sticky: true
+  unpublish_on: true
+  unpublish_state: true

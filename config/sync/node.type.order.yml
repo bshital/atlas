@@ -1,0 +1,11 @@
+uuid: 8abc682d-f499-4870-b650-4b3cbc6433a0
+langcode: en
+status: true
+dependencies: {  }
+name: Order
+type: order
+description: 'A ticket purchase, created by the Stripe webhook.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

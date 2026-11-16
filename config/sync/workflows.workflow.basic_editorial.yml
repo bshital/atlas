@@ -3,7 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
+    - node.type.agenda_item
+    - node.type.news
+    - node.type.order
     - node.type.page
+    - node.type.session
+    - node.type.speaker
+    - node.type.sponsor
+    - node.type.ticket_type
   module:
     - content_moderation
 _core:
@@ -53,5 +60,12 @@ type_settings:
       weight: 1
   entity_types:
     node:
+      - agenda_item
+      - news
+      - order
       - page
+      - session
+      - speaker
+      - sponsor
+      - ticket_type
   default_moderation_state: draft

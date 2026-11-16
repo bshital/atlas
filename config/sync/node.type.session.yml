@@ -1,0 +1,11 @@
+uuid: 2c600de4-0a11-4370-8109-0e9bf5acb6ad
+langcode: en
+status: true
+dependencies: {  }
+name: Session
+type: session
+description: 'A conference session on the agenda.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

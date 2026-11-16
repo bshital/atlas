@@ -1,0 +1,22 @@
+uuid: 78a0b4a1-31bb-4543-a592-87c8559c83a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_customer
+    - node.type.order
+id: node.order.field_customer
+field_name: field_customer
+entity_type: node
+bundle: order
+label: Customer
+description: 'Empty for guest checkout.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+field_type: entity_reference

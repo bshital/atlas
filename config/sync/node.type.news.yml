@@ -1,0 +1,11 @@
+uuid: ea2cdbdd-4b72-4571-98c5-17f34db76c2a
+langcode: en
+status: true
+dependencies: {  }
+name: News
+type: news
+description: 'News and announcements.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

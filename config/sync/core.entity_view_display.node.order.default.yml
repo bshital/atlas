@@ -1,0 +1,82 @@
+uuid: 48ef68a9-225e-446c-bc59-fc6b5c703f46
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.order.field_amount
+    - field.field.node.order.field_attendee_name
+    - field.field.node.order.field_customer
+    - field.field.node.order.field_email
+    - field.field.node.order.field_status
+    - field.field.node.order.field_stripe_session
+    - field.field.node.order.field_ticket_type
+    - node.type.order
+  module:
+    - options
+    - user
+id: node.order.default
+targetEntityType: node
+bundle: order
+mode: default
+content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
+  field_amount:
+    type: number_decimal
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_attendee_name:
+    type: string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_customer:
+    type: entity_reference_label
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_email:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_status:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_stripe_session:
+    type: string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_ticket_type:
+    type: entity_reference_label
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

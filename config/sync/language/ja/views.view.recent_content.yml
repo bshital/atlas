@@ -1,0 +1,35 @@
+description: コンテンツの検索と管理。
+display:
+  default:
+    display_title: デフォルト
+    display_options:
+      fields:
+        title:
+          label: タイトル
+          separator: ', '
+        type:
+          label: タイプ
+          separator: ', '
+        status:
+          label: 状態
+          settings:
+            format_custom_false: 非掲載
+            format_custom_true: 掲載
+          separator: ', '
+        changed:
+          label: 更新
+          separator: ', '
+        langcode:
+          label: 言語
+          separator: ', '
+      exposed_form:
+        options:
+          submit_button: フィルター
+          reset_button_label: リセット
+          exposed_sorts_label: 並び替え基準
+          sort_asc_label: 昇順
+          sort_desc_label: 降順
+  block_recent_content:
+    display_title: ブロック
+    display_options:
+      block_category: ダッシュボード

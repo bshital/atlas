@@ -1,0 +1,16 @@
+uuid: 2187da05-16c8-4d9a-aaf2-493428461e96
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.ticket_type
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.ticket_type
+target_entity_type_id: node
+target_bundle: ticket_type
+default_langcode: site_default
+language_alterable: true

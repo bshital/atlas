@@ -1,0 +1,11 @@
+uuid: 2ffa1e25-a972-45b4-a91a-6594daebdb50
+langcode: en
+status: true
+dependencies: {  }
+name: 'Ticket type'
+type: ticket_type
+description: 'A kind of ticket on sale, such as Early bird.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

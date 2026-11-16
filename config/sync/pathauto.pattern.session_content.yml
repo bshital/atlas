@@ -1,0 +1,23 @@
+uuid: 322db4c5-40f3-4cd1-adfa-4d2d933a0773
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.session
+  module:
+    - node
+id: session_content
+label: 'Session content'
+type: 'canonical_entities:node'
+pattern: '/sessions/[node:title]'
+selection_criteria:
+  4451a3fa-5a7c-404a-89b0-c2e659e90720:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      session: session
+selection_logic: and
+weight: -5
+relationships: {  }
